@@ -1,0 +1,12 @@
+#!name=ColorfulWidget
+#!desc=解锁ColorfulWidget VIP，点击恢复会员解锁，一次性解锁
+#!author=iOS彭于晏
+#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/ColorfulWidget.PNG
+
+[MITM]
+
+hostname = buy.itunes.apple.com
+
+[Script]
+
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ColorfulWidget.js, requires-body=true, timeout=60, tag=ColorfulWidget
