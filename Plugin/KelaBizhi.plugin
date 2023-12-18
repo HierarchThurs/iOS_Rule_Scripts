@@ -1,0 +1,12 @@
+#!name=克拉壁纸解锁
+#!desc=克拉壁纸解锁VIP，先登录再恢复购买，一次性解锁
+#!author=iOS彭于晏
+#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/KelaBizhi.PNG
+
+[MITM]
+
+hostname = buy.itunes.apple.com
+
+[Script]
+
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/KLBZ.js, requires-body=true, timeout=60, tag=KLBZ
