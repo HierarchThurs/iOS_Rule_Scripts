@@ -1,7 +1,7 @@
 #!name=极简汇率
 #!desc=极简汇率解锁VIP，非一次性解锁，开启规则后进入
 #!author=chxm1023
-#!icon= https://raw.githubusercontent.com/HierarchThurs/AppImages/main/icon/JiJianHuiLv.PNG
+#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/JiJianHuiLv.PNG
 
 [MITM]
 
