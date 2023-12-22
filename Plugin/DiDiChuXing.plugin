@@ -9,6 +9,9 @@
 
 hostname = hd.xiaojukeji.com, common.diditaxi.com.cn, freight.xiaojukeji.com, daijia.kuaidadi.com, ct.xiaojukeji.com, res.xiaojukeji.com, conf.diditaxi.com.cn
 
+[Rule]
+DOMAIN, gwp.xiaojukeji.com, REJECT
+
 [URL Rewrite]
 
 ^https:\/\/hd\.xiaojukeji\.com\/d - reject-dict
