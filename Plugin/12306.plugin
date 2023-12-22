@@ -1,0 +1,16 @@
+#!name=12306去广告
+#!desc=12306去开屏广告，移除倒计时和首页顶栏广告
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/12306.PNG
+
+[MITM]
+
+hostname = ad.12306.cn
+
+[Rule]
+
+DOMAIN, ad.12306.cn, DIRECT
+
+[Script]
+
+http-request ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList script-path=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/Scripts/12306.js, requires-body=true, timeout=60, tag=12306
