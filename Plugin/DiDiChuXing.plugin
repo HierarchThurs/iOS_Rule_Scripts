@@ -1,8 +1,7 @@
 #!name=滴滴出行去广告
-#!desc=滴滴出行，开屏，首页精简，主页tap精简，我的页面精简，去除所有广告。需要自己分流禁用gwp.xiaojukeji.com。需卸载重装
+#!desc=滴滴出行，开屏，首页精简，主页tap精简，我的页面精简，去除所有广告。需卸载重装
 #!author=怎么肥事
 #!update=2023-12-15 22:40
-#! ps=需要分流禁用掉 gwp.xiaojukeji.com
 #!icon= https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/ddcx.png
 
 [MITM]
