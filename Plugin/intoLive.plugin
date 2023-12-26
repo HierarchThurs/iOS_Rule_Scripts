@@ -1,0 +1,14 @@
+#!name=intoLive
+#!desc=intoLive解锁Pro，非一次性解锁，登陆后开启规则进入
+#!author=ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/IntoLive.PNG
+
+
+[MITM]
+
+hostname = buy.itunes.apple.com
+
+[Script]
+
+# ～ BuyiTunes@ddgksf2013
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://gist.githubusercontent.com/ddgksf2013/9e0f6c7341beea09a31aa309d9d7f502/raw/buyitunes.js, requires-body=true, timeout=60, tag=buyitunes
