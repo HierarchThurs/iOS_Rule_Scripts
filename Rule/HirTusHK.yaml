@@ -1,0 +1,7 @@
+# NAME: HirTusHK.yaml
+# AUTHOR: Hierarch
+# UPDATED: 2024-01-09 16:00
+payload:
+  - DOMAIN-KEYWORD,www.google.
+  - DOMAIN,imap.gmail.com
+  - DOMAIN,smtp.gmail.com
