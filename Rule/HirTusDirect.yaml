@@ -12,3 +12,4 @@ payload:
   - DOMAIN,smtp.163.com
   - DOMAIN,foxirj.com
   - IP-CIDR,10.53.1.3/16
+  - IP-CIDR,123.56.239.115/16
