@@ -5,3 +5,4 @@ payload:
   - DOMAIN-KEYWORD,www.google.
   - DOMAIN,imap.gmail.com
   - DOMAIN,smtp.gmail.com
+  - DOMAIN,githubusercontent
