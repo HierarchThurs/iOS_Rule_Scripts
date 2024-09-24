@@ -1,7 +1,7 @@
 #!name=One 解锁VIP
 #!desc=开启规则后进入，解锁点播，仅支持One v2.2.3
 #!date = 2024-09-24 16:43:12
-#!author = @chxm1023
+#!author = @iu
 #!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/one.png
 
 [Script]
