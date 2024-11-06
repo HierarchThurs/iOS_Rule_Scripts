@@ -1,0 +1,10 @@
+#!name=AdGuard
+#!desc=AdGuard
+#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/Adguard.PNG
+#!author=@chxm1023
+
+[Script]
+http-response ^https:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js, requires-body=true, timeout=60, tag=AdGuard
+
+[MITM]
+hostname = mobile-api.adguard.org
