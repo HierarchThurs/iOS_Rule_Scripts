@@ -3,6 +3,26 @@
   "description": "自用图标收集",
   "icons": [
     {
+      "name": "HierarchThurs",
+      "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/HierarchThurs.JPG"
+    },
+    {
+      "name": "GER_light",
+      "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/GER_light.JPG"
+    },
+    {
+      "name": "GER_light2",
+      "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/GER_light2.JPG"
+    },
+    {
+      "name": "GER_dark",
+      "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/GER_dark.JPG"
+    },
+    {
+      "name": "GER_dark2",
+      "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/GER_dark2.JPG"
+    },
+    {
       "name": "SNTP",
       "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/SNTP.JPG"
     },
