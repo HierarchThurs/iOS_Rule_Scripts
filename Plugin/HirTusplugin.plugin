@@ -19,28 +19,13 @@ DOMAIN,applesmtp.163.com,DIRECT
 
 # AIRPORT
 # ACA
-DOMAIN-KEYWORD,acaisbest.com,Hierarch
-
-# EMBY
-# MisakaF
-DOMAIN-KEYWORD,misakaf,Emby
-DOMAIN-SUFFIX,emby.aca.best,Emby
-# HXD Emby
-DOMAIN,emby.as174.de,Emby
-DOMAIN,hxd.as174.de,Emby
-DOMAIN,cf.bili.rip,Emby
-# Nanflix
-DOMAIN-KEYWORD,nanflix.net,Emby
-# HKA EMBY
-DOMAIN-KEYWORD,hka-emby,Emby
-# SNTP
-DOMAIN-KEYWORD,emby.cn2gias.uk,Emby
+DOMAIN-KEYWORD,acaisbest.com,Proxy
 
 # 分流
 # TG 加速加载
 IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
 # GitHub
 DOMAIN-KEYWORD,githubusercontent,Proxy
-# Google
-DOMAIN-SUFFIX,google.com,HK
 
+[MITM]
+hostname=m.client.10010.com, e.dlife.cn, www.52pojie.cn, *.wps.cn
