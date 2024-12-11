@@ -27,5 +27,9 @@ IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
 # GitHub
 DOMAIN-KEYWORD,githubusercontent,Proxy
 
+[rewrite]
+# Tg重定向外链跳转，至第三方客户端turrit
+(https:\/\/)?t.me\/(.+) 302 turrit://resolve?domain=$2
+
 [MITM]
-hostname=m.client.10010.com, e.dlife.cn, www.52pojie.cn, *.wps.cn
+hostname=m.client.10010.com, e.dlife.cn, www.52pojie.cn, *.wps.cn, t.me
