@@ -6,3 +6,24 @@ payload:
   - DOMAIN,imap.gmail.com
   - DOMAIN,smtp.gmail.com
   - DOMAIN,githubusercontent
+  # EMBY
+  # MisakaF
+  - DOMAIN-KEYWORD,misakaf
+  - DOMAIN-SUFFIX,emby.aca.best
+  # HXD Emby
+  - DOMAIN,emby.as174.de
+  - DOMAIN,hxd.as174.de
+  - DOMAIN,cf.bili.rip
+  # Nanflix
+  - DOMAIN-KEYWORD,nanflix.net
+  # HKA EMBY
+  - DOMAIN-KEYWORD,hka-emby
+  # SNTP
+  - DOMAIN-KEYWORD,emby.cn2gias.uk
+  # Terminus终点站
+  - DOMAIN,pub1.emby.wtf
+  - DOMAIN,pub1.term.wtf
+  - DOMAIN,pub2.emby.wtf
+  - DOMAIN,pub2.term.wtf
+  - DOMAIN,pub3.emby.wtf
+  - DOMAIN,pub3.term.wtf
