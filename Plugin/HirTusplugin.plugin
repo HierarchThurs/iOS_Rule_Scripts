@@ -16,6 +16,7 @@ DOMAIN,imap.163.com,DIRECT
 DOMAIN,smtp.163.com,DIRECT
 DOMAIN,appleimap.163.com,DIRECT
 DOMAIN,applesmtp.163.com,DIRECT
+DOMAIN,hierarch.fun,DIRECT
 
 # AIRPORT
 # ACA
