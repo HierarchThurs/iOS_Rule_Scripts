@@ -15,3 +15,4 @@ payload:
   - IP-CIDR,123.56.239.115/16
   - IP-CIDR,120.46.30.35/16
   - DOMAIN,docdown.cnki.net
+  - DOMAIN,hierarch.fun
