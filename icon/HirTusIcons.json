@@ -33,6 +33,10 @@
     {
       "name": "eEmby",
       "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/eEmby_Full.JPG"
+    },
+    {
+      "name": "emby-nginx",
+      "url": "https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/refs/heads/main/icon/emby-nginx.jpg"
     }
   ]
 }
