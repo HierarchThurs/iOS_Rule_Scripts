@@ -6,6 +6,7 @@ payload:
   - DOMAIN,imap.gmail.com
   - DOMAIN,smtp.gmail.com
   - DOMAIN,githubusercontent
+  - DOMAIN,api.themoviedb.org
   # EMBY
   # MisakaF
   - DOMAIN-KEYWORD,misakaf
