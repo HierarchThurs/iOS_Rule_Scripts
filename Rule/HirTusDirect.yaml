@@ -16,3 +16,6 @@ payload:
   - IP-CIDR,120.46.30.35/16
   - DOMAIN,docdown.cnki.net
   - DOMAIN,hierarch.fun
+  - DOMAIN,api.bilibili.com
+  - DOMAIN,bilibili.com
+
