@@ -9,7 +9,7 @@
 #知网
 DOMAIN,docdown.cnki.net,DIRECT
 # 抖音 接收消息
-AND,((DOMAIN-KEYWORD, frontier-aweme-), (AND, ((OR, ((DOMAIN-KEYWORD, -ipa.), (DOMAIN-KEYWORD, -ipainner.), (DOMAIN-KEYWORD, -origin.), (DOMAIN-KEYWORD, -ipainner-))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, amemv.com)))))),DIRECT
+# AND,((DOMAIN-KEYWORD, frontier-aweme-), (AND, ((OR, ((DOMAIN-KEYWORD, -ipa.), (DOMAIN-KEYWORD, -ipainner.), (DOMAIN-KEYWORD, -origin.), (DOMAIN-KEYWORD, -ipainner-))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, amemv.com)))))),DIRECT
 # 163 mail
 DOMAIN-SUFFIX,mail.163.com,DIRECT
 DOMAIN,imap.163.com,DIRECT
