@@ -18,4 +18,6 @@ payload:
   - DOMAIN,hierarch.fun
   - DOMAIN,api.bilibili.com
   - DOMAIN,bilibili.com
+  - DOMAIN-KEYWORD,jdcloudcs.com
+  - DOMAIN,mirrors.jdcloudcs.com
 
