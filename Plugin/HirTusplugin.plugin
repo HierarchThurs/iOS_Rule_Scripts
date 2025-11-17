@@ -1,7 +1,7 @@
 #!name=HirTus Plugin
 #!desc=自用规则、mitm、脚本等集合
 #!author=Hierarch[https://github.com/HierarchThurs]
-#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/Hierarch.JPG
+#!icon=https://raw.githubusercontent.com/HierarchThurs/iOS_Rule_Scripts/main/icon/HierarchThurs.JPG
 #!date=2025-11-17
 
 [Rule]
