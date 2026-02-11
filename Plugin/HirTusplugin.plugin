@@ -25,6 +25,11 @@ IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
 # GitHub
 DOMAIN-KEYWORD,githubusercontent,Proxy
 
+# 知乎去广告
+IP-CIDR,103.41.167.237/32,REJECT,no-resolve
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+
 [rewrite]
 # Tg重定向外链跳转，至第三方客户端turrit
 (https:\/\/)?t.me\/(.+) 302 turrit://resolve?domain=$2
