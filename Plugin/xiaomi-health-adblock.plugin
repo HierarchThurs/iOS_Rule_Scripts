@@ -1,0 +1,45 @@
+#!name = 小米运动健康去广告
+#!desc = 屏蔽了“小米运动健康”中已验证的推广图片，以及高置信度的横幅、弹窗和会员入口。首次处理较为保守，仅针对已验证的元素。
+#!author = Hierarch[https://github.com/HierarchThurs]
+#!homepage = https://apps.apple.com/cn/app/id1493500777
+#!system = iOS
+#!tag = 去广告,小米运动健康,健康
+#!icon = https://github.com/HierarchThurs/iOS_Rule_Scripts/blob/main/icon/xiaomi-health.png?raw=true
+
+[rewrite]
+
+# 已确认的营销图片样本
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user\/resource\/3%E6%9C%88%E6%89%8B%E8%A1%A8%E6%96%B0%E5%93%81%E9%A6%96%E9%94%80%E4%BC%98%E6%83%A0_154185982017538\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/appres\/images\/aidong\/tap\/sport\/banner\/20260325-101122\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/appres\/images\/3%E6%9C%88%E4%B8%BB%E9%A2%98%E6%B4%BB%E5%8A%A8\/1104_294\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/appres\/images\/3%E6%9C%88%E8%B7%91%E9%87%8F%E6%B4%BB%E5%8A%A8\/1104_294\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user\/resource\/%E8%AE%BE%E5%A4%87%E5%B0%8F_147830679274060\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user\/resource\/%E8%AE%BE%E5%A4%87%E5%B0%8F_147830708634270\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user\/resource\/%E7%94%B5%E5%95%86%E7%87%83%E8%84%82_153525474558045\.png(?:\?.*)?$ reject-img
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user\/resource\/%E7%94%B5%E5%95%86%E7%87%83%E8%84%82_153525436809307\.png(?:\?.*)?$ reject-img
+
+# 会员区静态素材
+^https:\/\/region-cdn-fds\.xiaomiwear\.com\/hlth-client-assets\/mine\/mine_tab\/VIP_light\.webp$ reject-img
+^https:\/\/region-cdn-fds\.xiaomiwear\.com\/hlth-client-assets\/mine\/mine_tab\/VIP_arrow\.webp$ reject-img
+^https:\/\/region-cdn-fds\.xiaomiwear\.com\/hlth-client-assets\/components\/membership\/circle_arrow_dark\.png$ reject-img
+
+# 高置信度商业化入口接口
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/resource\/banner_list(?:\?.*)?$ reject-200
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/popup\/get(?:\?.*)?$ reject-200
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/membership\/config(?:\?.*)?$ reject-200
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/membership\/info(?:\/v2)?(?:\?.*)?$ reject-200
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/membership\/get_medical_member_benefit(?:\?.*)?$ reject-200
+
+# 健康问诊整行的略激进过滤：第三方服务入口与医疗会员权益接口
+^https:\/\/hlth\.io\.mi\.com\/app\/v1\/thirdapp\/get_company_user_entrance(?:\?.*)?$ reject-200
+^https:\/\/hlth\.io\.mi\.com\/ops\/v1\/membership\/get_medical_member_benefit(?:\?.*)?$ reject-200
+
+# 运动页模块开关接口，用于控制 AIDONG / 体感课程 类板块
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/sport\/top_tabs(?:\?.*)?$ reject-200
+
+# 移除残留空白容器
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/components(?:\?.*)?$ reject-200
+^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/abtest\/result(?:\?.*)?$ reject-200
+
+[mitm]
+hostname = cdn.cnbj1.fds.api.mi-img.com, region-cdn-fds.xiaomiwear.com, watch.iot.mi.com, hlth.io.mi.com
