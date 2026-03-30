@@ -30,10 +30,6 @@
 ^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/membership\/info(?:\/v2)?(?:\?.*)?$ reject-200
 ^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/membership\/get_medical_member_benefit(?:\?.*)?$ reject-200
 
-# 健康问诊整行的略激进过滤：第三方服务入口与医疗会员权益接口
-^https:\/\/hlth\.io\.mi\.com\/app\/v1\/thirdapp\/get_company_user_entrance(?:\?.*)?$ reject-200
-^https:\/\/hlth\.io\.mi\.com\/ops\/v1\/membership\/get_medical_member_benefit(?:\?.*)?$ reject-200
-
 # 运动页模块开关接口，用于控制 AIDONG / 体感课程 类板块
 ^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/sport\/top_tabs(?:\?.*)?$ reject-200
 
@@ -42,4 +38,4 @@
 ^https:\/\/watch\.iot\.mi\.com\/ops\/v1\/abtest\/result(?:\?.*)?$ reject-200
 
 [mitm]
-hostname = cdn.cnbj1.fds.api.mi-img.com, region-cdn-fds.xiaomiwear.com, watch.iot.mi.com, hlth.io.mi.com
+hostname = cdn.cnbj1.fds.api.mi-img.com, region-cdn-fds.xiaomiwear.com, watch.iot.mi.com
