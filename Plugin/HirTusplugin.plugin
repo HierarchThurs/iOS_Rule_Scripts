@@ -27,7 +27,8 @@ DOMAIN-KEYWORD,githubusercontent,Proxy
 
 # 信大研究院
 DOMAIN,code.wolover.cn,DIRECT
-
+# Linux.do
+DOMAIN,linuxdo.org,DIRECT
 # 知乎去广告
 IP-CIDR,103.41.167.237/32,REJECT,no-resolve
 IP-CIDR,118.89.204.198/32,REJECT,no-resolve
