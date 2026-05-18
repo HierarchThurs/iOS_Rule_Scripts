@@ -27,4 +27,6 @@ payload:
   - DOMAIN,registry.wolover.cn
   - DOMAIN,api.oplist.org
   - DOMAIN,invite.linuxdo.org
+  - DOMAIN,imap.qiye.aliyun.com
+  - DOMAIN,smtp.qiye.aliyun.com
 
