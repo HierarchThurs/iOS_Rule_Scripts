@@ -29,4 +29,5 @@ payload:
   - DOMAIN,invite.linuxdo.org
   - DOMAIN,imap.qiye.aliyun.com
   - DOMAIN,smtp.qiye.aliyun.com
+  - DOMAIN-SUFFIX,steamcontent.com
 
