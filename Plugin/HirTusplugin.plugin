@@ -19,6 +19,8 @@ DOMAIN,applesmtp.163.com,DIRECT
 DOMAIN,hierarch.fun,DIRECT
 # HBB
 DOMAIN-KEYWORD,wepush.top,DIRECT
+# seagm
+DOMAIN,seagm.com,DIRECT
 # 分流
 # TG 加速加载
 IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
