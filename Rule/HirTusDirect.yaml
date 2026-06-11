@@ -31,4 +31,5 @@ payload:
   - DOMAIN,smtp.qiye.aliyun.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN,qghb53.91vps3.com
+  - DOMAIN,seagm.com
 
